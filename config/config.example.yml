@@ -1,14 +1,14 @@
-telegram_token: ""
-openai_api_key: ""
+telegram_token: "6900942389:AAHX0Bav94B_1AVKJcJLcDz-mkuWVjVa7z4"
+openai_api_key: "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiIwMDltci5qYW1lc0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLXNnVlRaRGQwMms2eWdod1JDcjVVSVpDMyIsInVzZXJfaWQiOiJ1c2VyLTdEWXJXUXBNN2RqWlE2aFd6SnB2Qk5OYSJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiYXV0aDB8NjU4NDBmZWE1MDI3MWFmYjYwZjExM2E0IiwiYXVkIjpbImh0dHBzOi8vYXBpLm9wZW5haS5jb20vdjEiLCJodHRwczovL29wZW5haS5vcGVuYWkuYXV0aDBhcHAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTcwNDk4NTA4MSwiZXhwIjoxNzA1ODQ5MDgxLCJhenAiOiJUZEpJY2JlMTZXb1RIdE45NW55eXdoNUU0eU9vNkl0RyIsInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyJ9.u8qftVdROZbwg5TR2kgydyp3MAQ_vceNN2JB1KEgl244BX3lDUc6LBNfL7LQbF6o7pmgFN5MXMIZFmUF2F-LRoOnWWeDdIRSW_B0TNc-rNeyFDU6OiM8OOsviuOYg7FyF0xu8rNFS6VYqZAl9qD2QaZGUUS1QQSYJXcAx7Kra0SPo-lu4gpfX3VVFm_IHTxamDtsYBcbeFEzeqgtFAprbjBcdcKPttRdk_V6rJ3gUsGoe5C4gIwmm3mirQs40KSWDafNhDh3lJUKCmiv3-vUgxYrfFDUW4xhR9ysNaKeTknnk9W6sTKNEGtuvDeZM7wkUAER_uRKlVZ0268u3ue20g"
 openai_api_base: null  # leave null to use default api base or you can put your own base url here
-allowed_telegram_usernames: []  # if empty, the bot is available to anyone. pass a username string to allow it and/or user ids as positive integers and/or channel ids as negative integers
+allowed_telegram_usernames: [5631774748]  # if empty, the bot is available to anyone. pass a username string to allow it and/or user ids as positive integers and/or channel ids as negative integers
 new_dialog_timeout: 600  # new dialog starts after timeout (in seconds)
 return_n_generated_images: 1
 n_chat_modes_per_page: 5
-image_size: "512x512" # the image size for image generation. Generated images can have a size of 256x256, 512x512, or 1024x1024 pixels. Smaller sizes are faster to generate.
+image_size: "1024x1024" # the image size for image generation. Generated images can have a size of 256x256, 512x512, or 1024x1024 pixels. Smaller sizes are faster to generate.
 enable_message_streaming: true  # if set, messages will be shown to user word-by-word
 
 # prices
-chatgpt_price_per_1000_tokens: 0.002
-gpt_price_per_1000_tokens: 0.02
-whisper_price_per_1_min: 0.006
+chatgpt_price_per_1000_tokens: 0
+gpt_price_per_1000_tokens: 0
+whisper_price_per_1_min: 0
